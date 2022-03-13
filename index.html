@@ -45,17 +45,37 @@
         .input_field:hover {
             box-shadow: 0 1px 6px #20212447;
         }
+        /* allign navbar links to the right */
+        
+        .nav-links {
+            float: right;
+        }
     </style>
 
     <title>Gloone</title>
 </head>
 
 <body>
-    <div class="container">
+    <!-- add a navebar on the top -->
+    <!-- alling links to top right of the page -->
+    <nav class="nav-links">
+        <!-- add to links to pages advanced.html and images.html -->
+        <a href="advanced.html">Advanced Search</a>
+        <a href="images.html">Image Search</a>
+
+
+    </nav>
+
+
+
+
+    <!-- add top right links to advanced and image -->
+
+    <div class=" container">
         <div class="child">
             <img class="logo" src="./Gloone.png" alt="logo" height="92px">
             <form action="https://google.com/search">
-                <input class="input_field" type="text" name="q">
+                <input class="input_field " type="text" name="q">
                 <input type="submit" value="Gloone Search">
                 <input type="submit" value="Pick one!">
             </form>
