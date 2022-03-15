@@ -9,6 +9,13 @@ html {
     padding: 0;
 }
 
+.nav-links {
+    padding: 0.5em;
+    float: right;
+    text-decoration: none;
+    color: #000000de;
+}
+
 a {
     text-decoration: none;
     padding: 0.5rem;
@@ -35,7 +42,7 @@ form {
     /* Setup */
     padding-top: 5em;
     position: relative;
-    display: block;
+    display: flex;
 }
 
 .child {
@@ -109,11 +116,4 @@ form {
 
 .buttons {
     padding-top: 18px;
-}
-
-.nav-links {
-    padding-top: 0.5em;
-    float: right;
-    text-decoration: none;
-    color: #000000de
 }

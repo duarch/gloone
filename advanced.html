@@ -18,28 +18,36 @@
     Header: "Find pages with…"
     -->
     <form>
-        <div class="container">
-            <div class="child">
-                <img class="logo" src="./Gloone.png" alt="logo" height="92px">
-                <h1>
+        <div>
+            <label style="color:#d93025; font-size:20px; margin-left: 10px;">Advanced Search</label>
+            <div>
+
+                <h4>
                     Find pages with
-                </h1>
-                <div class="input_field">
-                    <label for="all_words">all these words:</label>
-                    <input type="text" name="all_words">
-                </div>
-                <div class="input_field">
-                    <label for="exact_word">this exact word or phrase:</label>
-                    <input type="text" name="exact_word">
-                </div>
-                <div class="input_field">
-                    <label for="any_words">any of these words:</label>
-                    <input type="text" name="any_words">
-                </div>
-                <div class="input_field">
-                    <label for="none_words">none of these words:</label>
-                    <input type="text" name="none_words">
-                </div>
+                </h4>
+                <form>
+                    <div>
+                        <label for="all_words">all these words:</label>
+                        <input type="text" name="q">
+                    </div>
+
+                    <div>
+                        <label for="exact_word">this exact word or phrase:</label>
+                        <input type="text" name="as_epq">
+                    </div>
+                    <div>
+                        <label for="any_words">any of these words:</label>
+                        <input type="text" name="as_oq">
+                    </div>
+                    <div>
+                        <label for="none_words">none of these words:</label>
+                        <input type="text" name="as_eq">
+                    </div>
+
+                    <div class="blue-buttons">
+                        <input class="submit_button" type="submit" value="Advanced Search" formaction="https://google.com/search">
+                    </div>
+                </form>
             </div>
         </div>
 
