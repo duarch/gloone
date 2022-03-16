@@ -21,33 +21,37 @@
         <div>
             <label style="color:#d93025; font-size:20px; margin-left: 10px;">Advanced Search</label>
             <div>
+                <div class="line"></div>
+                <div class="adv-form">
+                    <spam>
+                        Find pages with...
+                    </spam>
+                    <form>
+                        <div>
+                            <label for="all_words">all these words:</label>
+                            <input class="adv-textinput" type="text" name="q">
+                        </div>
 
-                <h4>
-                    Find pages with
-                </h4>
-                <form>
-                    <div>
-                        <label for="all_words">all these words:</label>
-                        <input type="text" name="q">
-                    </div>
+                        <div>
+                            <label for="exact_word">this exact word or phrase:</label>
+                            <input class="adv-textinput" type="text" name="as_epq">
+                        </div>
+                        <div>
+                            <label for="any_words">any of these words:</label>
+                            <input class="adv-textinput" type="text" name="as_oq">
+                        </div>
+                        <div>
+                            <label for="none_words">none of these words:</label>
+                            <input class="adv-textinput" type="text" name="as_eq">
+                        </div>
 
-                    <div>
-                        <label for="exact_word">this exact word or phrase:</label>
-                        <input type="text" name="as_epq">
-                    </div>
-                    <div>
-                        <label for="any_words">any of these words:</label>
-                        <input type="text" name="as_oq">
-                    </div>
-                    <div>
-                        <label for="none_words">none of these words:</label>
-                        <input type="text" name="as_eq">
-                    </div>
+                        <div>
+                            <input class="blue-buttons" type="submit" value="Advanced Search" formaction="https://google.com/search">
+                        </div>
+                    </form>
+                </div>
 
-                    <div class="blue-buttons">
-                        <input class="submit_button" type="submit" value="Advanced Search" formaction="https://google.com/search">
-                    </div>
-                </form>
+
             </div>
         </div>
 
