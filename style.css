@@ -9,6 +9,16 @@ html {
     padding: 0;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding: 0.5em;
+    top: 2px;
+}
+
 .nav-links {
     padding: 0.5em;
     float: right;
@@ -37,11 +47,41 @@ form {
     border-bottom: 1px solid #ebebeb;
 }
 
+.title {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
 .adv-form {
     max-width: 1140px;
     min-width: 200px;
     width: 96%;
-    margin: 40px 2% 0 45px;
+    margin: 40px 2% 0 10px;
+}
+
+.adv-form-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adv-form-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    max-width: 100%;
 }
 
 .adv-textinput {
@@ -51,6 +91,12 @@ form {
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
+    width: 60%;
+}
+
+.adv-form-button {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .blue-buttons {
