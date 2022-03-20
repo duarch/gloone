@@ -45,12 +45,13 @@ form {
 
 .line {
     border-bottom: 1px solid #ebebeb;
+    padding: 1em;
 }
 
 .title {
     color: #d93025;
     font-size: 20px;
-    margin: 25px 35px;
+    margin: 0px 25px 35px 10px;
 }
 
 .subtitle {
